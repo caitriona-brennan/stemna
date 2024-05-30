@@ -13,6 +13,10 @@ body {
   background-color: #f7f7ff;
   padding-bottom: 6%; 
   background-image: url('./Photos/bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  background-attachment: fixed;
 }
 
 p{
