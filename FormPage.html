@@ -1,0 +1,135 @@
+<!DOCTYPE html> 
+<html lang="en">
+<html>
+<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Form</title>
+		<link rel="stylesheet" href="Style/myStyle.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ </head>
+	<body style="background-color: #001324">
+	
+				<!-- Content of the page -->
+<!-- heading -->
+<div class="container"></div>
+    <div class="container">
+        <div class="col-1"></div>
+        <div class="col-10" >
+            <h1 class="white-heading" style="text-align:right; margin-top:10%;">Share Your Experience</h1>
+            <h2 class="white-subheading" style="text-align:right;">We want to hear from you</h2>
+        </div>
+        <div class="col-1"></div>
+    </div>
+			
+				<!-- Start of the Form -->
+	<div class="container">
+		<div class="col-1"></div>
+		<div class="col-10">
+		<form id="contactForm" enctype="multipart/form-data">
+				<br>
+				
+				<!-- Form -->
+			<label class="white-body" for="name">Name:</label><br>
+				<input type="text" id="name" name="name" required><br><br>
+				
+				<!-- Radio Buttons for yes or no options -->
+			<div class="white-body">
+				<p>Are you happy for us to share your name altogether with your story? </p>
+				<input type="radio" id="radio1" name="radio" value="option1">
+				<label for="radio1">Yes, go ahead!</label><br>
+
+				<input type="radio" id="radio2" name="radio" value="option2">
+				<label for="radio2">No, I'd like to stay anonymous'</label>
+			</div>
+				<br>
+  
+			<label class="white-body" for="phone">Position:</label><br>
+				<input type="text" id="position" name="position"><br><br>
+  
+			<label class="white-body" for="story">Tell us your story:</label><br>
+				<textarea id="story" name="story"  required></textarea><br><br>
+  
+				<!-- Dropdown Field for a yes or no question-->
+			<div class="white-body">
+				<label for="dropdown">Would you like to recieve email updates from us on events and news?</label>
+				<select id="dropdown" name="dropdown">
+					<option value=""></option>
+					<option value="yes">Yes</option>
+					<option value="no">No</option>
+				</select>
+			</div>
+			<br>
+			<label class="white-body" for="email">Email:</label><br>
+				<input type="email" id="email" name="email" required><br><br>
+			<!-- Checkbox for the terms and conditions -->
+			<div class="white-body">
+				<input type="checkbox" id="checkbox" name="checkbox">
+				<label for="checkbox">Please, check this box if you agree with the Terms & Conditions of sharing your story with us.</label>
+			</div>
+			<br>
+				
+				<!-- Submit Button -->
+			<button type="submit" class="submitbutton">Submit</button>
+		</form>
+		<div class="col-1" ></div>
+	</div>
+	</div>
+
+	<!-- get a story -->
+
+	<div class="container">
+		<div class="col-1"></div>
+        <div class="col-2">
+            <button type="button" class="image-btn ": onclick="play()">
+                <img src="Photos/factbutton.png" class="img-fluid">
+            </button>
+        </div>
+		<div class="col-1"></div>
+		<div class="col-7">
+			<p class="white-body" style="text-align:left;" id="storyname"></p>
+            <p class="white-body" style="text-align:left;" id="result"></p>
+        </div>
+		<div class="col-1"></div>
+    </div>
+
+
+
+
+		  <!-- nav bar -->
+		  <div class="container">
+			<nav class="navbar fixed-top">
+				<div class="col-1 col-md-1 col-lg-1">
+					<a href="index.html"><img src="Photos/logowt.png" alt="my logo" class="img-fluid"></a>
+				</div>
+				<div align="right"; class="col-10 col-md-8 col-lg-6">
+					<p>
+						<a class ="white-body pagelink" href="history.html">History</a>
+						<a class ="white-body pagelink" href="FormPage.html">Form</a>
+						<a class ="white-body pagelink" href="Events.html">Events</a>
+					</p>
+				</div>
+			  </nav>
+		</div>
+		<!-- footer -->
+		<div class="container footer">
+			<!-- Add icon library -->
+			
+			<div class="col-7" >
+			<p class="white-body "> <!-- Add font awesome icons -->
+				<a href="mailto:caitriona.m.brennan@gmail.com">Hello@womentech.com</a><a href="" target="_blank" class="fa fa-envelope"></a>
+				<a href="https://www.instagram.com/caitriona.design/" target="_blank" class="fa fa-instagram"></a>
+				<a href="https://www.linkedin.com/in/caitriona-brennan-924135195/" target="_blank" class="fa fa-linkedin"></a>
+			</p>
+			</div>
+		</div>
+		</div>
+		
+				  </body>
+				  <script src="JavaScript/gamehistoryscript.js"></script>
+				  <script src="JavaScript/FormPageJavaScript.js"></script>
+				  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+				  </html>
+		
