@@ -12,6 +12,7 @@ h2 {
 body {
   background-color: #f7f7ff;
   padding-bottom: 6%; 
+  background-image: url('./Photos/bg.png');
 }
 
 p{
