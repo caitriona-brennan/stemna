@@ -8,20 +8,23 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Form</title>
 		<link rel="stylesheet" href="Style/myStyle.css"/>
+		<link rel="stylesheet" href="https://use.typekit.net/hwj4tpx.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  </head>
-	<body style="background-color: #001324">
+	<body style="background-color: #EFEEEB; ">
 	
 				<!-- Content of the page -->
 <!-- heading -->
 <div class="container"></div>
     <div class="container">
+		<img class="image4" style="scale: 30%" src="./Photos/hang.png" alt="">
         <div class="col-1"></div>
         <div class="col-10" >
-            <h1 class="white-heading" style="text-align:right; margin-top:10%;">Share Your Experience</h1>
-            <h2 class="white-subheading" style="text-align:right;">We want to hear from you</h2>
+            <h1 class="white-heading" style="text-align:right; margin-top:5%;">Share Your Experience</h1>
         </div>
         <div class="col-1"></div>
+		<img class="image2" style="scale:50%" src="./Photos/vslight.png" alt="">
+		<img class="image2" style="scale:30%" src="./Photos/blueshort.png" alt="">
     </div>
 			
 				<!-- Start of the Form -->
@@ -37,12 +40,12 @@
 				
 				<!-- Radio Buttons for yes or no options -->
 			<div class="white-body">
-				<p>Are you happy for us to share your name altogether with your story? </p>
+				<p>Are you happy for us to share your name with your story? </p>
 				<input type="radio" id="radio1" name="radio" value="option1">
 				<label for="radio1">Yes, go ahead!</label><br>
 
 				<input type="radio" id="radio2" name="radio" value="option2">
-				<label for="radio2">No, I'd like to stay anonymous'</label>
+				<label for="radio2">No, I'd like to stay anonymous</label>
 			</div>
 				<br>
   
@@ -67,12 +70,12 @@
 			<!-- Checkbox for the terms and conditions -->
 			<div class="white-body">
 				<input type="checkbox" id="checkbox" name="checkbox">
-				<label for="checkbox">Please, check this box if you agree with the Terms & Conditions of sharing your story with us.</label>
+				<label for="checkbox">I agree to the <a style="color:blue">Terms & Conditions</a> of sharing my story.</label>
 			</div>
 			<br>
 				
 				<!-- Submit Button -->
-			<button type="submit" class="submitbutton">Submit</button>
+			<button type="submit" style="padding: 0.5% 1%" class="submitbutton">Submit</button>
 		</form>
 		<div class="col-1" ></div>
 	</div>
@@ -83,11 +86,8 @@
 	<div class="container">
 		<div class="col-1"></div>
         <div class="col-2">
-            <button type="button" class="image-btn ": onclick="play()">
-                <img src="Photos/factbutton.png" class="img-fluid">
-            </button>
+			<button type="submit" style="padding: 5% 7%" class="submitbutton": onclick="play()">Read a Story</button>
         </div>
-		<div class="col-1"></div>
 		<div class="col-7">
 			<p class="white-body" style="text-align:left;" id="storyname"></p>
             <p class="white-body" style="text-align:left;" id="result"></p>
@@ -102,13 +102,13 @@
 		  <div class="container">
 			<nav class="navbar fixed-top">
 				<div class="col-1 col-md-1 col-lg-1">
-					<a href="index.html"><img src="Photos/logowt.png" alt="my logo" class="img-fluid"></a>
+					<a href="index.html"><img src="Photos/logowt.png" alt="my logo" class="img-fluid" style="scale:80%; padding-top:5%"></a>
 				</div>
 				<div align="right"; class="col-10 col-md-8 col-lg-6">
 					<p>
-						<a class ="white-body pagelink" href="history.html">History</a>
-						<a class ="white-body pagelink" href="FormPage.html">Form</a>
-						<a class ="white-body pagelink" href="Events.html">Events</a>
+						<a class ="pagelink" href="history.html">History</a>
+						<a class ="pagelink" href="FormPage.html">Form</a>
+						<a class ="pagelink" href="Events.html">Events</a>
 					</p>
 				</div>
 			  </nav>
