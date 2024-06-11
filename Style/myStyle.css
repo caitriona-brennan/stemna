@@ -195,7 +195,13 @@ color: rgb(255, 255, 255);
   opacity: 0.75;
 }
 
-
+.title {
+  top: 0%; /* Adjust this according to your layout */
+  left: 40%;
+  width: 100%; /* Ensure the image covers the entire width */
+  height: auto; /* Maintain aspect ratio */
+  scale: 80%;
+}
 
 
 
