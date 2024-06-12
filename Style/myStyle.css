@@ -89,6 +89,29 @@ padding: 1%;
   border-image: none;
 }
 
+.pagelink-menu{
+  padding: 3%;
+  background-color: #1C1A1C;
+  border-radius: 50px;
+  margin-top: 5%;
+  border-width:5px;
+  border-style:solid;
+  border-color: #1C1A1C;
+  border-image: none;
+  font-size:200%;
+}
+
+.pagelink-menu:hover {
+  padding: 3%;
+  background-color: #ffffff;
+  color:#1C1A1C;
+  border-width: 5px;
+  border-style:solid;
+  border-color: #1C1A1C;
+  border-image: none;
+  font-size:200%;
+}
+
 /* social media icons */
 .fa {
 font-size: 30px;
