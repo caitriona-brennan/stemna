@@ -26,6 +26,7 @@
     </div>
 	<div class="container"></div>
     <div class="container">
+	<img class="image3" src="./Photos/pinkcode.png" style="scale: 25%;" alt="">
         <div class="col-1"></div>
         <div class="col-md-7 col-sm-10" >
             <h2 class="white-subheading" style="text-align:left;">Who we are</h2>
@@ -47,21 +48,56 @@
     </div>
 </div>
 
-	<!-- nav bar -->
+<!-- nav bar -->
 	<div class="container">
-		<nav class="navbar fixed-top">
-			<div class="col-1 col-md-1 col-lg-1">
-				<a href="index.html"><img src="Photos/logowt.png" alt="my logo" class="img-fluid" style="scale:80%; padding-top:5%"></a>
-			</div>
-			<div align="right" class="col-10 col-md-8 col-lg-6">
-				<p>
-					<a class ="pagelink" href="history.html">History</a>
-					<a class ="pagelink" href="FormPage.html">Form</a>
-					<a class ="pagelink" href="Events.html">Events</a>
-				</p>
-			</div>
-		  </nav>
-	</div>
+        <nav class="navbar fixed-top">
+            <!-- Burger menu icon, visible only on small screens -->
+            <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" class="d-md-none">
+                <img src="Photos/burger.png" alt="" width="25%" height="auto">
+            </a>
+            
+            <!-- Regular navbar links, hidden on small screens -->
+            <div class="d-none d-md-flex align-items-center justify-content-between w-100">
+                <div class="col-1 col-md-1 col-lg-1">
+                    <a href="index.html"><img src="Photos/logowt.png" alt="my logo" class="img-fluid" style="scale:80%; padding-top:5%"></a>
+                </div>
+                <div align="right" class="col-10 col-md-8 col-lg-6">
+                    <p>
+                        <a class="pagelink" href="history.html">History</a>
+                        <a class="pagelink" href="FormPage.html">Form</a>
+                        <a class="pagelink" href="Events.html">Events</a>
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Offcanvas menu for small screens -->
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <a data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample" aria-label="Close">
+                        <img src="Photos/x.png" alt="" width="25%" height="auto">
+                    </a>
+                </div>
+                <div class="offcanvas-body">
+                    <div style="margin-top:3%;" class="col-10 col-md-8 col-lg-6">
+                        <p class="mb-3">
+                            <a class="pagelink-menu" href="history.html">History</a>
+                        </p>
+                    </div>
+                    <div style="margin-top:3%;" class="col-10 col-md-8 col-lg-6">
+                        <p class="mb-3">
+                            <a class="pagelink-menu" href="FormPage.html">Form</a>
+                        </p>
+                    </div>
+                    <div style="margin-top:3%;" class="col-10 col-md-8 col-lg-6">
+                        <p class="mb-3">
+                            <a class="pagelink-menu" href="Events.html">Events</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
 <!-- footer -->
     <div class="container footer">
 
