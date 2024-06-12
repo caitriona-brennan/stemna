@@ -76,3 +76,13 @@ document.addEventListener('DOMContentLoaded', () => {
    // Start observing the target element
    targets.forEach(target => observer.observe(target));
 });
+
+
+// Rotate images on scroll
+window.addEventListener('scroll', function() {
+  var images = document.querySelectorAll('.rotate');
+  var scrollPosition = window.scrollY;
+  images.forEach(function(image) {
+      image.style.transform = 'rotate(' + scrollPosition / 120 + 'deg)';
+  });
+});
