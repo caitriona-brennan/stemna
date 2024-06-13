@@ -6,8 +6,9 @@ h1 {
 }
 
 h2 {
-  font-family: "calling-code", sans-serif;
-  font-weight: 400;
+  font-family: "Ubuntu Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
   color: #1C1A1C;
 }
@@ -46,8 +47,9 @@ position: relative;
   padding-top:5%;
   text-transform: capitalize;
   font-size: 4.5vw;
-  font-family: "calling-code", sans-serif;
-  font-weight: 400;
+  font-family: "Ubuntu Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
   color:#1C1A1C;
   font-weight:300;
@@ -57,8 +59,9 @@ position: relative;
 
 /* body text colour variations */
 .white-body {
-  font-family: "calling-code", sans-serif;
-  font-weight: 400;
+  font-family: "Ubuntu Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
   font-style: normal;
 color: #1C1A1C;
 font-weight:400;
@@ -72,7 +75,7 @@ padding: 1%;
 }
 .pagelink{
   background-color: #1C1A1C;
-  border-radius: 50px;
+  border-radius: 5px;
   margin-top: 5%;
   border-width: 2px;
   border-style:solid;
@@ -92,7 +95,7 @@ padding: 1%;
 .pagelink-menu{
   padding: 3%;
   background-color: #1C1A1C;
-  border-radius: 50px;
+  border-radius: 5px;
   margin-top: 5%;
   border-width:5px;
   border-style:solid;
@@ -127,7 +130,7 @@ color: rgb(255, 255, 255);
 
 .submitbutton {
   background-color: #1C1A1C;
-  border-radius: 50px;
+  border-radius: 5px;
   color: rgb(255, 255, 255);
   text-align: center;
   text-decoration: none;
